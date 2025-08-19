@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac237fec-416f-4fea-936e-2bbd7d200307" name="Changes" comment="Aula 12/08">
-      <change afterPath="$PROJECT_DIR$/src/Instalador.kt" afterDir="false" />
+    <list default="true" id="ac237fec-416f-4fea-936e-2bbd7d200307" name="Changes" comment="Aula 13/08">
+      <change afterPath="$PROJECT_DIR$/src/Cargo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Formato.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Marca.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Material.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Setor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sexo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CaixaDAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaixaDAgua.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instalador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instalador.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servico.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -38,12 +48,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="Aula_12-08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755043888337</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aula 13/08">
+      <option name="closed" value="true" />
+      <created>1755128022652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755128022652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aula 12/08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 12/08" />
+    <MESSAGE value="Aula 13/08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 13/08" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+package entidades
+
 import java.math.BigDecimal
 
 class Servico (

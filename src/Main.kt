@@ -1,3 +1,7 @@
+import entidades.CaixaDAgua
+import entidades.Instalador
+import entidades.Servico
+import enumeradores.*
 import java.math.BigDecimal
 
 fun main() {
@@ -9,24 +13,25 @@ fun main() {
            nome = "João",
            idade = 25,
            cpf = "1223443434",
-           sexo = "Masculino",
+           sexo = Sexo.MASCULINO,
            endereco = "Rua Boa Vista, 26 - Bom Jesus do Sul",
            telefone = 46999381240,
            dataNasc = "04/11/2000",
-           cargo = "Instalador de Caixa de Água",
+           cargo = Cargo.INSTALADOR,
            tempoExperiencia = 2.5,
-           salario = BigDecimal(200.50)
+           salario = BigDecimal(3000.99),
+           setor = Setor.MONTAGEM
        )
    )
-    val caixaDAgua1: CaixaDAgua =
+    val caixaDAgua: CaixaDAgua =
         CaixaDAgua(
             20000,
-            "Polietileno",
-            "Circular",
+            Material.POLIETILENO,
+            Formato.CIRCULAR,
             50,
-            "Azul",
+            Cor.AZUL,
             350.0,
-            "Fortlev",
+            Marca.FORTLEV,
             3.25,
             2.45,
             4.05,
