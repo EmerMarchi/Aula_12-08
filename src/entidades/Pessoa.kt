@@ -1,6 +1,7 @@
 package entidades
 
 import enumeradores.Sexo
+import java.math.BigDecimal
 
 open class Pessoa (
     val nome : String,
@@ -10,4 +11,8 @@ open class Pessoa (
     val telefone : Long,
     val endereco : String,
     val dataNasc : String
-)
+){
+    open fun receberConta(conta: Conta, aRecber : BigDecimal){
+        conta.saldo = conta.saldo.add(aRecber)
+
+    }    }

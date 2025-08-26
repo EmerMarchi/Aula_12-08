@@ -1,3 +1,4 @@
+import com.sun.jdi.ClassType
 import entidades.CaixaDAgua
 import entidades.Instalador
 import entidades.Servico
@@ -5,6 +6,7 @@ import enumeradores.*
 import java.math.BigDecimal
 
 fun main() {
+    //Classes aninhadas é quando temos uma classe dentro da outra.
    val instalacao : Servico = Servico(
        preco = "800.50".toBigDecimal(),
        tempo = 2.00,
@@ -20,9 +22,12 @@ fun main() {
            cargo = Cargo.INSTALADOR,
            tempoExperiencia = 2.5,
            salario = BigDecimal(3000.99),
-           setor = Setor.MONTAGEM
+           setor = Setor.MONTAGEM,
+           funcao = Funcao.OPERADOR,
+           equipamento = listOf("parafusadeira", "parafusos")
        )
    )
+
     val caixaDAgua: CaixaDAgua =
         CaixaDAgua(
             20000,
@@ -37,4 +42,28 @@ fun main() {
             4.05,
             null
         )
+
+    val clt = Instalador (
+        nome = "Fabio",
+        idade = 42,
+        cpf = "23233232",
+        sexo = Sexo.MASCULINO,
+        endereco = "Rua x",
+        telefone = 468992342,
+        dataNasc = "14/03/1983",
+        cargo = Cargo.INSTALADOR,
+        tempoExperiencia = 3.0,
+        salario = BigDecimal(1000.00),
+        setor = Setor.LOGISTICA,
+        funcao = Funcao.CARREGADOR,
+        equipamento = listOf("parafusadeira", "parafusos", "EPIs")
+    )
+
+    println("Começar a instalação")
+    /*if(clt.instalarCaixaDaAgua()){
+        println("Parabens, a caixa foi instalada")
+    }else{
+        println("Deu ruim")
+    }*/
+    println(clt.instalacaoCompleta())
 }
